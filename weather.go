@@ -24,7 +24,8 @@ type GeoResponse struct {
 }
 
 func main() {
-	apiKey := "76687ba93a49cc8decb2a7d8718ed39d"
+	// apiKey := "76687ba93a49cc8decb2a7d8718ed39d"
+	apiKey := "Token"
 	city := "Jakarta"
 
 	lat, lon, err := getLatLon(city, apiKey)
